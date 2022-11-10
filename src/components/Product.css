@@ -1,0 +1,21 @@
+.cards{
+   display: flex;
+   float: left;
+   flex-direction: column;
+    width: 300px;
+    border: 2px solid black;
+   margin: 40px;
+    position: relative;
+    left: 90px;
+}
+.btn{
+    color: aliceblue;
+    background-color: rgb(1, 1, 14);
+   position: relative;
+   bottom:18px
+   
+   
+}
+body{
+    background-color: aqua;
+}
