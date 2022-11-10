@@ -7,7 +7,7 @@ const Products = ({data}) => {
                 {data.map(data =>  
                 <div >
                     <div  className='cards'>
-                    <img  src={data.recipe.image} alt="Card image cap" />
+                    <img  src={data.recipe.image} alt="img" />
                     <div class="card-body">
                     <center>
                         <h5>{data.recipe.label}</h5>
